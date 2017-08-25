@@ -1,0 +1,280 @@
+body {
+  max-width: 1600px;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+table {
+  width: 100%;
+}
+
+image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#jumbotron {
+
+}
+
+#jumbotron h1 {
+  font-size: 24em;
+  font-weight: bold;
+  color: #c2c2c2;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#jumbotron h2 {
+  font-size: 8em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#jumbotron h3 {
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#features {
+
+}
+
+#features h1 {
+  font-size: 4em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#features h2 {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#features h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#features th {
+  text-align: left;
+}
+
+#steps {
+  background-color: #ebebeb;
+}
+
+#steps h1 {
+  font-size: 4em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#steps h2 {
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#steps h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#steps th {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#steps td {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#steps .subh {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.stepnum {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+#contact1 {
+  text-align: center;
+}
+
+#contact1 h1 {
+  font-size: 4em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#contact1 h2 {
+  color: #c2c2c2;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+#pricing {
+  background-color: #ebebeb;
+  overflow: auto;
+}
+
+#contact2 {
+  float: left;
+  width: 100%;
+  background-color: white;
+}
+
+#footer {
+  float: left;
+  width: 100%;
+  background-color: black;
+}
+
+#footer td {
+  color: white;
+}
+
+#footer th {
+  color: white;
+  text-align: left;
+}
+
+.jumboimage {
+  width:  800px;
+  height: 300px;
+  overflow: hidden;
+  text-align: right;
+  float: right;
+}
+
+.jumboimage img {
+  width: 809px;
+  height: 544px;
+  margin: -100px 0 0 0;
+}
+
+.jumboprev a:link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.jumbonext {
+  text-align: right;
+}
+
+.jumboprev a:visited {
+  color: black;
+}
+
+.jumbonext a:link {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.jumbonext a:visited {
+  color: black;
+}
+
+#steps img {
+  width:  532px;
+  height: 300px;
+  overflow: hidden;
+}
+
+#nav {
+  text-align: right;
+}
+
+#nav a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+}
+
+#nav a:visited {
+  color: black;
+}
+
+.btnblack {
+  width: 270px;
+  height: 80px;
+  background-color: black;
+}
+
+.btnblack p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+}
+
+.btnwhite {
+  width: 270px;
+  height: 80px;
+  background-color: white;
+}
+
+.btnwhite p {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 80px;
+}
+
+#tier1 {
+  float: left;
+  background-color: white;
+  margin: 10px;
+  padding: 60px;
+}
+
+#tier2 {
+  float: left;
+  background-color: black;
+  margin: 10px;
+  padding: 60px;
+}
+
+#tier2 h1 {
+  color: white;
+}
+
+#tier2 h2 {
+  color: white;
+}
+
+#tier2 li {
+  color: white;
+}
+
+#tier3 {
+  float: left;
+  background-color: white;
+  margin: 10px;
+  padding: 60px;
+}

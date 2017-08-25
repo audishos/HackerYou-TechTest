@@ -43,7 +43,12 @@ image {
 }
 
 #features {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
 
+#features header {
+  padding-bottom: 100px;
 }
 
 #features h1 {
@@ -71,6 +76,12 @@ image {
 
 #steps {
   background-color: #ebebeb;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#steps header {
+  padding-bottom: 100px;
 }
 
 #steps h1 {
@@ -117,6 +128,8 @@ image {
 
 #contact1 {
   text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
 }
 
 #contact1 h1 {
@@ -134,6 +147,56 @@ image {
 #pricing {
   background-color: #ebebeb;
   overflow: auto;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+#tier1 {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  margin: 10px;
+  padding: 60px;
+  height: 400px;
+}
+
+#tier2 {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: black;
+  margin: 10px;
+  padding: 60px;
+  height: 400px
+}
+
+#tier2 h1 {
+  color: white;
+}
+
+#tier2 h2 {
+  color: white;
+}
+
+#tier2 li {
+  color: white;
+}
+
+#tier3 {
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  margin: 10px;
+  padding: 60px;
+  height: 400px
+}
+
+#pricing ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #contact2 {
@@ -142,19 +205,59 @@ image {
   background-color: white;
 }
 
+#contact2 table {
+  border: 50px solid white;
+}
+
+#contact2 td {
+  padding: 50px;
+}
+
+#contact2 h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 #footer {
   float: left;
   width: 100%;
   background-color: black;
 }
 
-#footer td {
-  color: white;
+#footer table {
+  border: 80px solid black;
 }
 
 #footer th {
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+#footer td {
   color: white;
+  width: 150px;
+  height: 40px;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+#footer img {
+  padding: 20px;
+}
+
+#footer th {
+  color: #4b4b4b;
   text-align: left;
+}
+
+input[type=email] {
+  color: #c2c2c2;
+  background-color: black;
+  width: 220px;
+  border-color: #c2c2c2;
+  border-style: solid;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .jumboimage {
@@ -246,35 +349,11 @@ image {
   line-height: 80px;
 }
 
-#tier1 {
-  float: left;
-  background-color: white;
-  margin: 10px;
-  padding: 60px;
+.btnsmall {
+  width: 135px;
+  height: 40px;
 }
 
-#tier2 {
-  float: left;
-  background-color: black;
-  margin: 10px;
-  padding: 60px;
-}
-
-#tier2 h1 {
-  color: white;
-}
-
-#tier2 h2 {
-  color: white;
-}
-
-#tier2 li {
-  color: white;
-}
-
-#tier3 {
-  float: left;
-  background-color: white;
-  margin: 10px;
-  padding: 60px;
+.btnsmall p {
+  line-height: 40px;
 }
